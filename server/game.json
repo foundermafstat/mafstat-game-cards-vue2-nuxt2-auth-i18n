@@ -1,0 +1,36 @@
+{
+  "_id": "606e62f039d51433548ed934",
+  "date": "2021-04-08T01:55:03.759Z",
+  "bmove": [1,4,9],
+  "result": "mafia",
+  "fkill": 5,
+  "players": [
+    {
+      "slot": 1,
+      "nickname": {
+          "id":"605ca4d15bf2d053f08041e1",
+          "name":"player1"},
+      "role": "mafia",
+      "point": 1,
+      "extra": 0.3,
+      "fouls": 3
+    },
+    {
+      "slot": 2,
+      "nickname": {
+          "id":"605ca4d15bf2d053f08041e2",
+          "name":"player2"},
+      "role": "civilian",
+      "point": 0,
+      "extra": 0,
+      "fouls": 2
+    }
+  ]
+}
+
+
+{$match: {
+  _id: {
+    $in: gamesList
+  }
+}},

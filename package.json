@@ -1,0 +1,40 @@
+{
+  "name": "mafstat-nuxt2-express",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/app.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/app.js --watch server"
+  },
+  "dependencies": {
+    "@mdi/font": "^6.5.95",
+    "@nuxt/types": "^2.15.8",
+    "@nuxtjs/auth-next": "5.0.0-1637745161.ea53f98",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/i18n": "^7.3.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "bcryptjs": "^2.4.3",
+    "core-js": "^3.15.1",
+    "cross-env": "^7.0.3",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.20",
+    "nuxt": "^2.15.7",
+    "sass-loader": "^10.1.1",
+    "vue-country-flag": "^2.3.2",
+    "vuetify": "^2.5.5",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1",
+    "prettier": "^2.5.0",
+    "sass-loader": "^10.1.1"
+  }
+}
